@@ -13,6 +13,11 @@
   text-align: center;
   border-radius: 20px;
 }
+.sc-1 .menu .tap-1:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
 .sc-1 .all-infor {
   display: flex;
   align-items: center;
@@ -43,7 +48,7 @@
 .sc-2 {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-template-rows: repeat(4, 500px);
+  grid-template-rows: repeat(3, 500px);
   gap: 50px;
   margin: 150px;
 }
@@ -70,4 +75,42 @@
 }
 .sc-2 .box-2 .text p {
   font-size: 20px;
+}
+
+.sc-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  gap: 50px;
+}
+.sc-3 .text-1 {
+  width: 500px;
+}
+.sc-3 .text-1 #email {
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  border: 1px solid black;
+}
+.sc-3 .text-1 #lb {
+  width: 100px;
+  border: 1px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.sc-3 .text-1 #lb:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+.sc-3 .text-1 #lb {
+  background-color: blue;
+  color: white;
+}
+.sc-3 .text-2 {
+  width: 400px;
+  color: gray;
 }/*# sourceMappingURL=style.css.map */

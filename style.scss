@@ -47,3 +47,37 @@
        }
     }
 }
+.sc-2{
+    display: grid;
+
+    grid-template-columns: 400px  400px 400px;
+    grid-template-rows: repeat(4,500px);
+    gap: 50px;
+   margin: 150px;
+    .box-1{
+        width: 100%;
+        .text{
+            width: 90%;
+            margin: auto;
+        }
+        .box-1, .img{
+            width: 100%;
+            
+        }
+    }
+    .box-2 {
+        width: 100%;
+        margin: auto;
+        .img{
+            width: 100%;
+        }
+        .text{
+            width: 90%;
+            margin: 50px 0px;
+        }
+        .text p{
+            font-size: 20px;
+        }
+    }
+}
+

@@ -1,0 +1,49 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@mixin tap{
+    width: 100px;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.sc-1{
+   
+     .menu{
+        
+        @include flex;
+        justify-content: center;
+        gap: 50px;
+        .tap-1{
+            @include  tap;
+        }
+
+    }
+    .all-infor{
+        @include flex;
+        margin: 100px 0px;
+        gap: 100px;
+        .text{
+            width: 400px;
+             .text h1{
+            font-size: 60px;
+            margin: 10px 0px;
+
+        }
+    }
+       .img
+       {
+        @include flex;
+        justify-content: start;
+       }
+       .text p{
+        margin: 10px 0px;
+        font-size: 18px;
+       }
+    }
+}
